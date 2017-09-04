@@ -1,0 +1,29 @@
+{
+  "name": "cloudhub",
+  "productName": "cloudhub",
+  "author": "lihe_li",
+  "description": "A minimal Electron application",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "electron-packager ./ --platform=win32 --arch=x64 --out ./dist --version 1.4.0 --overwrite --icon=./resource/qq-hover.png"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.5",
+    "electron-installer-squirrel-windows": "^1.3.0",
+    "electron-packager": "^9.0.1",
+    "electron-prebuilt": "^1.4.13",
+    "electron-squirrel-startup": "latest",
+    "electron-winstaller": "^2.6.3"
+  }
+}
